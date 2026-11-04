@@ -30,6 +30,13 @@ Consumo de APIs NoSQL com HTTP e Frontend
 
 - A
 
+## 🎨 Cores
+ - ![cor](https://singlecolorimage.com/get/39FF14/12x12) Verde portal
+ - ![cor](https://singlecolorimage.com/get/00D9FF/12x12) Azul de Rick
+ - ![cor](https://singlecolorimage.com/get/B8FF5C/12x12) Verde de Morty
+ - ![cor](https://singlecolorimage.com/get/8A2BE2/12x12) Roxo cósmico
+ - ![cor](https://singlecolorimage.com/get/111827/12x12) Preto Espacial
+
 ## 👤 Alunos
 
 - Davi Augusto Gonçalves
