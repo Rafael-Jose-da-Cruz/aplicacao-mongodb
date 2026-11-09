@@ -107,6 +107,14 @@ const apiService = {
   createCharacter: (character) => API.post('/characters', character),
 
   /**
+   * PATCH /characters/:id - atualizar parcialmente um personagem
+   * @param {string} id
+   * @param {Object} data - campos parciais (ex: { status: 'Dead' })
+   * @returns {Promise<AxiosResponse<Character>>}
+   */
+  patchCharacter: (id, data) => API.patch(`/characters/${id}`, data),
+
+  /**
    * PUT /characters/:id - atualizar personagem existente
    * @param {string} id - ID do personagem
    * @param {Object} character - campos a atualizar
