@@ -90,7 +90,7 @@ const apiService = {
    * @returns {Promise<AxiosResponse<Character[]>>}
    */
 
-  getCharacters: () => API.get('/characters'),
+  getCharacters: (params = { per_page: 100 }) => API.get('/characters', { params }),
 
   /**
    * GET /characters/:id - buscar personagem pelo ID
