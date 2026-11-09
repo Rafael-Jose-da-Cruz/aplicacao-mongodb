@@ -1,11 +1,18 @@
 <script setup>
-import HelloWorld from './components/HelloWorld.vue'
+import { RouterView } from 'vue-router'
+import Header from './components/Header.vue'
 </script>
 
 <template>
-  <HelloWorld msg="Vite + Vue" />
+  <Header />
+
+  <main>
+    <RouterView />
+  </main>
 </template>
 
 <style scoped>
-
+main {
+  min-height: 60vh;
+}
 </style>

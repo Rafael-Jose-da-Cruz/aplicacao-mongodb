@@ -11,6 +11,16 @@
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  --cor-primaria: #42b883;
+  --cor-secundaria: #35495e;
+  --cor-primaria-escura: #338d63;
+  --cor-destaque: #5c2c2c;
+  --cor-fundo: #242424;
+  --cor-texto: #ffffff;
+  --cor-texto-secundario: #a0aec0;
+  --espacamento: 16px;
+  --arredondamento: 12px;
 }
 
 a {
@@ -50,6 +60,30 @@ button:hover {
 button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
+}
+
+h1,
+h2,
+h3 {
+  color: var(--cor-primaria);
+}
+
+.btn-1,
+.btn-4 {
+  background-color: var(--cor-primaria-escura);
+  color: var(--cor-texto);
+}
+
+.btn-2,
+.btn-5 {
+  background-color: var(--cor-secundaria);
+  color: var(--cor-texto);
+}
+
+.btn-3,
+.btn-6 {
+  background-color: var(--cor-destaque);
+  color: var(--cor-texto);
 }
 
 .card {
