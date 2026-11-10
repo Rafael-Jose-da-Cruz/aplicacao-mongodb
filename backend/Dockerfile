@@ -56,3 +56,7 @@ USER www-data
 
 # Inicialização
 CMD ["sh", "-c", "exec php artisan serve --host=0.0.0.0 --port=${PORT:-10000}"]
+
+EXPOSE 10000
+
+CMD ["sh", "-c", "php artisan serve --host=0.0.0.0 --port=${PORT:-10000}"]
