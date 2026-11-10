@@ -28,7 +28,10 @@ Consumo de APIs NoSQL com HTTP e Frontend
 
 ## 🎯 Features
 
-- A
+- Mostrar Gráficos
+- Consumo de dados de Pai
+- CRUD
+- Dashbord
 
 ## 🎨 Cores
  - ![cor](https://singlecolorimage.com/get/39FF14/12x12) Verde portal
